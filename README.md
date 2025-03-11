@@ -2,7 +2,7 @@
 These scripts are used to block bots and word-press attacks using apache2 analysis and UFW
 They are all hacky and specific to linux / apache2 environment. 
 
-wp_block.py can be executed by running sudo python3 wp_block.py This script also has a dry run mode, which can be executed by running:  sudo python3 wp_block.py --dry-run
+wp_block.py can be executed by running sudo python3 wp_block.py This script also has a dry run mode, which can be executed by running:  sudo python3 wp_block.py --dry-run. If you host word press, dont use this script ever. It will break everything. 
 
 block.py is simply executed by running: sudo python3 block.py
 
