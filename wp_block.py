@@ -17,7 +17,7 @@ log_files = [
 ]
 
 # Define regex pattern to match "wp" and extract the IP address
-wp_pattern = re.compile(r'(\d+\.\d+\.\d+\.\d+).*?"GET .*?wp.*?"', re.IGNORECASE)
+wp_pattern = re.compile(r'(\d+\.\d+\.\d+\.\d+).*?"GET .*?wp-.*?"', re.IGNORECASE)
 
 # Store unique IPs to avoid duplicate blocking
 blocked_ips = set()
