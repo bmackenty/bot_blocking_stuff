@@ -7,7 +7,13 @@ import argparse
 log_files = [
     "/var/log/apache2/access.log",
     "/var/log/apache2/7019.org-access.log",
-    "/var/log/apache2/another-log.log"  # Add more logs here
+    "/var/log/apache2/computersciencewiki.org-access.log",
+    "/var/log/apache2/games.mackenty.org-access.log",
+    "/var/log/apache2/mackenty.org-access.log",
+    "/var/log/apache2/new.computersciencewiki.org-access.log",
+    "/var/log/apache2/faq.computersciencewiki.org-access.log",
+    "/var/log/apache2/courses.computersciencewiki.org-access.log",
+    "/var/log/apache2/dailynotes.computersciencewiki.org-access.log"
 ]
 
 # Define regex pattern to match "wp" and extract the IP address
