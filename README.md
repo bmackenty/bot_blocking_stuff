@@ -1,4 +1,4 @@
-# bot_blocking_stuff
+# Bot blockers
 These scripts are used to block bots and word-press attacks using apache2 analysis and UFW
 They are all hacky and specific to linux / apache2 environment. 
 
