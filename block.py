@@ -33,7 +33,9 @@ bot_patterns = [
     r'(\d+\.\d+\.\d+\.\d+) .*?"GET .*?" .*?"Mozilla.*?Bytespider',      # Bytespider
     r'(\d+\.\d+\.\d+\.\d+) .*?"GET .*?" .*?"Mozilla.*?MetaSr',          # MetaSr (Sogou) Bot
     r'(\d+\.\d+\.\d+\.\d+) .*?"GET .*?" .*?"Mozilla.*?YandexBot',       # YandexBot
-    r'(\d+\.\d+\.\d+\.\d+) .*?"GET .*?" .*?"Mozilla.*?GPTBot'           # GPTBot
+    r'(\d+\.\d+\.\d+\.\d+) .*?"GET .*?" .*?"Mozilla.*?GPTBot',          # GPTBot
+    r'(\d+\.\d+\.\d+\.\d+) .*?\"(GET|HEAD|POST).*?\.zip.*?\"'           # Match any .zip access
+
 ]
 
 log_patterns = [re.compile(pattern, re.IGNORECASE) for pattern in bot_patterns]
